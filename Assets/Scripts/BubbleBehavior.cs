@@ -49,7 +49,7 @@ public class BubbleBehavior : MonoBehaviour
 
         // Ensure the scale is exactly at the target size at the end
         transform.localScale = new Vector3(targetScale, targetScale, targetScale);
-        Debug.Log("Reached target size: " + targetScale);
+      //  Debug.Log("Reached target size: " + targetScale);
     }
 
     private IEnumerator ShrinkBubble()
@@ -69,7 +69,7 @@ public class BubbleBehavior : MonoBehaviour
 
         // Ensure the scale is exactly at 0.02 at the end
         transform.localScale = new Vector3(0.02f, 0.02f, 0.02f);
-        Debug.Log("Bubble shrunk back to 0.02");
+       // Debug.Log("Bubble shrunk back to 0.02");
     }
 
     private void Explode()
